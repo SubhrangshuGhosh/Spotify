@@ -1,0 +1,65 @@
+/* .logo{
+    
+} */
+
+/* .border{
+    border: 2px solid red;
+    margin: 3px;
+} */
+
+.flex{
+ display: flex;   
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: rgb(10, 137, 156);
+    color: white;
+}
+
+.bg-grey{
+    background-color: #1e1d1ddd;
+}
+
+.rounded{
+ border-radius: 7px;   
+}
+
+.m-1{
+    margin: 5px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+
+body {
+  scrollbar-color: #212020 #1e1e1e; 
+  scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e1e;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #555;
+  border-radius: 10px;
+  border: 2px solid #1e1e1e;
+}
+
+.invert{
+  filter: invert(1);
+}
